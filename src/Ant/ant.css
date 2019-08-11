@@ -1,0 +1,64 @@
+.ant {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #004ba0;
+  color: azure;
+  border-radius: .5rem;
+  margin: 0 0 .5rem;
+  padding: 0 .5rem;
+}
+
+.ant .btn {
+  font-size: 2rem;
+  padding: .5rem 1rem;
+  margin: 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  background: #7519d2;
+  color: azure;
+  flex: 1 1 auto;
+  transition: all .2s;
+}
+
+.ant .btn.disabled {
+  opacity: .6;
+  cursor: default;
+}
+
+.ant .info-wrap {
+  flex: 100 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.ant .info-wrap p {
+  font-size: 2rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.ant .info-wrap .info {
+  display: flex;
+  flex-direction: row;
+}
+
+.ant .info-wrap .info  p {
+  margin: 0 1rem 0 0;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #eedeff;
+}
+
+.ant .chance {
+  display: flex;
+  flex-direction: column;
+  min-width: 15rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
